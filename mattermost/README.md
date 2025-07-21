@@ -6,7 +6,7 @@ mattermost version: 10.10.1
 ```sh
 cd ~/build/mattermost
 wget https://raw.githubusercontent.com/mattermost/mattermost/master/server/build/entrypoint.sh
-wget https://raw.githubusercontent.com/hibobmaster/useful-notes/main/mattermost/Dockerfile
+wget https://raw.githubusercontent.com/zjw345/useful-notes/main/mattermost/Dockerfile
 ```
 
 Build arm64 docker image
