@@ -50,7 +50,7 @@ jobs:
           platforms: linux/arm64                    # 构建目标平台（这里仅构建 ARM64 架构）
           push: true                                # 构建完成后推送到 Docker Hub
           tags: |                                   # 设置镜像标签
-            hibobmaster/mattermost-arm:latest
-            hibobmaster/mattermost-arm:${{ github.event.inputs.tag }}
+            in2udocker/mattermost-arm:latest
+            in2udocker/mattermost-arm:${{ github.event.inputs.tag }}
           cache-from: type=gha                      # 启用 GitHub Actions 的构建缓存（加快后续构建）
           cache-to: type=gha,mode=max
