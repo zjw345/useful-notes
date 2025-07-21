@@ -6,7 +6,7 @@ mattermost version: 10.10.1
 ```sh
 cd ~/build/mattermost
 wget https://raw.githubusercontent.com/mattermost/mattermost/master/server/build/entrypoint.sh
-wget https://raw.githubusercontent.com/zjw345/useful-notes/main/mattermost/Dockerfile
+wget https://raw.githubusercontent.com/zjw345/useful-notes/refs/heads/v10.10.1/mattermost/Dockerfile
 ```
 
 Build arm64 docker image
@@ -19,7 +19,7 @@ docker build . -t mattermost-arm:10.10.1
 Mattermost working directory setup
 ```bash
 cd /opt/mattermost
-wget https://raw.githubusercontent.com/zjw345/useful-notes/main/mattermost/compose.yaml
+wget https://raw.githubusercontent.com/zjw345/useful-notes/refs/heads/v10.10.1/mattermost/compose.yaml
 mkdir -p mattermost/{config,data,logs,plugins,bleve-indexes}
 mkdir -p mattermost/client/plugins
 chown 2000:2000 -R .
