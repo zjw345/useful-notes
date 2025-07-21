@@ -1,5 +1,5 @@
 # 工作流名称，将显示在 GitHub Actions 页面上
-name: Publish mattermost Docker image
+name: Publish mattermost Docker hub image
 
 # 定义该工作流的触发方式：手动触发（通过 GitHub Actions 页面）
 on:
