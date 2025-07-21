@@ -19,7 +19,7 @@ docker build . -t mattermost-arm:10.10.1
 Mattermost working directory setup
 ```bash
 cd /opt/mattermost
-wget https://raw.githubusercontent.com/hibobmaster/useful-notes/main/mattermost/compose.yaml
+wget https://raw.githubusercontent.com/zjw345/useful-notes/main/mattermost/compose.yaml
 mkdir -p mattermost/{config,data,logs,plugins,bleve-indexes}
 mkdir -p mattermost/client/plugins
 chown 2000:2000 -R .
